@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.CustomExceptionHandlingContrib">
+  <require>org.nuxeo.ecm.platform.webapp.core.ExceptionHandlingContrib</require>
+  <extension target="org.nuxeo.ecm.platform.web.common.exceptionhandling.service.ExceptionHandlingService" point="listener">
+    <listener class="org.nuxeo.ecm.platform.web.common.exceptionhandling.service.NullExceptionHandlingListener" />
+  </extension>
+</component>
