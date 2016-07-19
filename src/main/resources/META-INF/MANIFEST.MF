@@ -6,4 +6,4 @@ Bundle-Version: 1.0.0
 Bundle-Name: exception-handler-core
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: org.nuxeo.exception-handler-core;singleton=true
-Nuxeo-Component: OSGI-INF/exceptionhandling-contrib.xml
+Nuxeo-Component: OSGI-INF/exception-handling-contrib.xml
